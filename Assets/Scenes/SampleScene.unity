@@ -1094,7 +1094,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 415392021}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -139.59924, y: 44.048668, z: -58.789845}
+  m_LocalPosition: {x: -129.6, y: 44.048668, z: 58.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 175876768}
@@ -1179,7 +1179,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 486646464}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 884215087}
+        m_MethodName: Replay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &486646464
@@ -2127,7 +2138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737269469}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135.07924, y: 44.048668, z: -58.789845}
+  m_LocalPosition: {x: -125.08, y: 44.048668, z: 58.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1374713542}
@@ -2366,7 +2377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &771239097
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2542,7 +2552,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 779966369}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 884215087}
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &779966369
@@ -2862,7 +2883,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossTower: {fileID: 157833200}
-  enemyUnit: {fileID: 0}
   winPopUp: {fileID: 220732926}
   lossPopUp: {fileID: 2124221498}
 --- !u!1 &900372568
@@ -3565,7 +3585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012759474}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -143.74924, y: 44.048668, z: -58.789845}
+  m_LocalPosition: {x: -133.75, y: 44.048668, z: 58.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1311200312}
@@ -3621,7 +3641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &1036404996
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3950,7 +3969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &1146129113
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4219,7 +4237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &1187543895
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4366,7 +4383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &1189295178
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5105,7 +5121,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296849762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -147.86923, y: 44.048668, z: -58.789845}
+  m_LocalPosition: {x: -137.87, y: 44.048668, z: 58.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1498908248}
@@ -5161,7 +5177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &1308416272
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5948,7 +5963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &1396476452
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6080,7 +6094,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &1397266819
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6242,7 +6255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &1407560368
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6389,7 +6401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a53c8bc1d027049b160cc6249fe06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!195 &1424196376
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6931,7 +6942,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1612565599}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 884215087}
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1612565599
@@ -7456,7 +7478,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1779072095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 884215087}
+        m_MethodName: Replay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1779072095
@@ -8053,7 +8086,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944627438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -152.07924, y: 44.048668, z: -58.789845}
+  m_LocalPosition: {x: -142.08, y: 44.048668, z: 58.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 764996323}
